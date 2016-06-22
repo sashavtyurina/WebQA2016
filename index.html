@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>The Second WebQA workshop</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Workshop</a></li>
+            <li><a class="smoothscroll" href="#program">Program proposal</a></li>
+            <li><a class="smoothscroll" href="#speakers">Invited speakers</a></li>
+	         <li><a class="smoothscroll" href="#papers">Accepted papers</a></li>
+            <li><a class="smoothscroll" href="#organizers">Organizers</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Second WebQA workshop</h1>
+            <h3>The Second WebQA workshop was accepted to <a href="http://sigir.org/sigir2016/">SIGIR 2016</a>. It is organized by <a class="smoothscroll" href="#org3">Eugene Agichtein</a>, <a class="smoothscroll" href="#org1">Charles Clarke</a>, <a class="smoothscroll" href="#org2">Lluis Marquez</a>, <a class="smoothscroll" href="#org2">Alessandro Moschitti</a>, <a class="smoothscroll" href="#org1">Preslav Nakov</a> and <a class="smoothscroll" href="#org3">Idan Szpektor</a>.
+            <br/>
+            Scroll down to <a class="smoothscroll" href="#program">program</a>, <a class="smoothscroll" href="#speakers">invited speakers</a> and <a class="smoothscroll" href="#papers">accepted papers</a>. </h3>
+            <!-- <h3>
+            Web search engines have made great progress at answering factoid queries. However, they are not well-tailored for managing more complex questions, especially when they require explanation and/or description.
+WebQA workshop aims at exploring diverse approaches to answering questions on the Web. This year, particular emphasis will be given to Community Question Answering (CQA), where comments by the users engaged in the community can be used to answer new questions. Questions posted on the Web can be short and ambiguous (similarly to Web queries to a search engine). These issues make the WebQA task more challenging than traditional QA, and finding the most effective approaches for it remains an open problem.
+Unlike the more formal conference format, the aim of this workshop is to bring together researchers in diverse areas working on this problem, including those from NLP, IR, social media and recommender systems communities. This workshop is specifically designed for the SIGIR audience. However, due to its format, its goal, as compared to the main conference, is to conduct a more focused and open discussion, encouraging the presentation of work in progress and late-­breaking initial results in Web Question Answering. Both academic and industrial participation will be solicited, including keynotes and invited speakers.
+            </h3> -->
+            <hr />
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#program"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+<section id="program">
+
+      <!-- Workshop Program  -->
+      <div class="row education">
+
+         <div class="two columns header-col">
+            <h1><span>Program</span></h1>
+         </div>
+
+         <div class="ten columns main-col">
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Welcome and Introduction</h5>
+                  <p class="info"><em class="date">8:50 - 9:00</em></p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Session I: "Models and Corpora for QA"</h5>
+                  <p class="info"><em class="date">09:00-10:30</em></p>
+                  <p>
+                  <ul>
+                     <li>
+                        <p class="sectionContent">
+                           <em class="talkTitle">TBD</em>
+                           <br/>
+                           <em class="authors">Scott Yih
+                           <br/>
+                           invited speaker, 45 min</em>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="sectionContent">
+                           <em class="talkTitle">Using Sparse Coding for Answer Summarization in Non-Factoid Community Question-Answering </em>
+                           <br/>
+                           <em class="authors">Zhaochun Ren, Hongya Song, Piji Li, Shangsong Liang, Jun Ma and Maarten de Rijke
+                           <br/>
+                           workshop paper, 15 min
+                           </em>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="sectionContent">
+                           <em class="talkTitle">CQADupStack: Gold or Silver?</em>
+                           <br/>
+                           <em class="authors">Doris Hoogeveen, Karin Verspoor and Timothy Baldwin
+                           <br/>
+                           workshop paper, 15 min</em>
+                        </p>
+                     </li>
+                     <li>
+                        <p class="sectionContent">
+                           <em class="talkTitle">A Proposal for Evaluating Answer Distillation from Web Data</em>
+                           <br/>
+                           <em class="authors">Grady Simon, Bhaskar Mitra, Jianfeng Gao and Nick Craswell
+                           <br/>
+                           workshop paper, 15 min</em>
+                        </p>
+                     </li>
+                  </ul>
+                  </p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Coffee break</h5>
+                  <p class="info"><em class="date">10:30-11:00</em></p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Session II: SemEval cQA challenge </h5>
+                  <p class="info"><em class="date">11:00-13:00</em></p>
+                  <p>
+                     <ul>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle"><a class="smoothscroll" href="#MSandersonTalk">Getting Rid of the Ten Blue Links</a></em>
+                              <br/>
+                              <em class="authors"> <a class="smoothscroll" href="#MSanderson">Mark Sanderson</a>
+                              <br/>
+                              invited speaker, 45 min</em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">Introduction to cQA SemEval Challenge </em>
+                              <br/>
+                              <em class="authors">Alessandro Moschitti
+                              <br/>
+                              introduction, 15 min</em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">ConvKN at SemEval-2016 Task 3: Answer and Question Selection for Question Answering on Arabic and English Forums</em>
+                              <br/>
+                              <em class="authors">Alberto Barron-Cedeno, Giovanni Da San Martino, Shafiq Joty, Alessandro Moschitti, Fahad A. Al Obaidli, Salvatore Romeo, Daniele Bonadiman, Kateryna Tymoshenko and Antonio Uva
+                              <br/>
+                              external contribution, 15 min
+                              </em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">Structural Models for Ranking Tasks of Community Question Answering</em>
+                              <br/>
+                              <em class="authors">Simone Filice, Danilo Croce, Alessandro Moschitti and Roberto Basili
+                              <br/>
+                              external contribution, 15 min
+                              </em>
+                           </p>
+                        </li>
+                     </ul>
+                  </p>
+               </div>
+            </div>
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Lunch Break</h5>
+                  <p class="info"><em class="date">12:30-14:00</em></p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5> Session III: TBD</h5>
+                  <p class="info"><em class="date">14:00-15:30</em></p>
+                  <p class="sectionContent">
+                     <ul>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle"><a class="smoothscroll" href="#EGabrilovichTalk">TBD</a></em>
+                              <br/>
+                              <em class="authors"><a class="smoothscroll" href="#EGabrilovich">Evgeniy Gabrilovich</a>
+                              <br/>
+                              invited speaker, 45 min</em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">TBD</em>
+                              <br/>
+                              <em class="authors">Eric Nyberg
+                              <br/>
+                              invited speaker, 45 min</em>
+                           </p>
+                        </li>
+                     </ul>
+                  </p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Coffee break</h5>
+                  <p class="info"><em class="date">15:30-16:00</em></p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5> Session IV: LiveQA challenge </h5>
+                  <p class="info"><em class="date">16:00-17:15</em></p>
+                  <p class="sectionContent">
+                     <ul>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle"><a class="smoothscroll" href="#DCarmelTalk">Web Question Answering with CQA data</a></em>
+                              <br/>
+                              <em class="authors"><a class="smoothscroll" href="#DCarmel">David Carmel</a>
+                              <br/>
+                              invited speaker, 45 min</em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">LiveQA: system and experiments</em>
+                              <br/>
+                              <em class="authors">Eugene Agichtein
+                              <br/>
+                              external contribution, 15 min</em>
+                           </p>
+                        </li>
+                        <li>
+                           <p class="sectionContent">
+                              <em class="talkTitle">Complex question: Let me Google it for you</em>
+                              <br/>
+                              <em class="authors">Alexandra Vtyurina and Charles Clarke
+                              <br/>
+                              workshop paper, 15 min
+                              </em>
+                           </p>
+                        </li>
+                     </ul>
+                  </p>
+               </div>
+            </div> <!-- item end -->
+
+            <div class="row item">
+               <div class="twelve columns">
+                  <h5>Concluding Remarks</h5>
+                  <p class="info"><em class="date">17:15-17:30</em></p>
+               </div>
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+</section> <!-- program Section End-->
+
+
+<!-- About Section
+   ================================================== -->
+   <section id="speakers">
+
+      <div class="row">
+         <div class="twelve columns">
+            <h1><span>Invited speakers</span></h1>
+         </div>
+      </div> <!-- Row End-->
+
+      <section id="MSandersonTalk" style="padding-top: 60px">
+         <div class="row">
+
+
+            <div class="two columns">
+               <img class="profile-pic"  src="images/people/msanderson.jpg" alt="" />
+            </div>
+
+            <div class="ten columns main-col">
+
+
+                  <h2>Mark Sanderson
+                  <br/>
+                  Getting Rid of the Ten Blue Links
+                  </h2>
+
+                  <p>In this talk, I will describe the work we are doing at RMIT to change one of the commonest web pages we all look at: the Search Result Page (SERP). In our work we are looking to replace the SERP with a set of answer passages that address the user’s query. In the context of general web search, the problem of finding answer passages has not been explored extensively. Previous studies have found that many informational queries can be answered by a passage of text extracted from a retrieved document, relieving the user from having to read the actual document. While current passage retrieval methods that focus on topical relevance have been shown to be not effective at finding answers, the result shows that more knowledge is required to identify answers in the document.
+                  <br/>
+                  We have been formulating the answer passage extraction problem as a summarization task. We initially used term distributions extracted from a Community Question Answering (CQA) service to generate more effective summaries of retrieved web pages. An experiment was conducted to see the benefit of using the CQA data in finding answer passages. We analyze the fraction of answers covering a set of queries, the quality of the corresponding result from the answering service, and their impact on the generated summaries. I will also talk about recent work where we re-rank retrieved passages according to the summary quality and incorporating document summarizability into the ranking function.
+                  </p>
+
+
+               <section id="MSanderson" style="padding-top: 60px">
+                  <h2>Bio</h2>
+                  <p>
+                  Prof. Mark Sanderson works in Computer Science at the School Science at RMIT University in Melbourne, Australia, where he is head of the RMIT Information Retrieval (IR) group, which is regarded as the leading IR group in Australia. He is co-editor of Foundations and Trends in Information Retrieval, which is currently the highest impact rated IR journal. He is also an associate editor of IEEE TKDE and of ACM TWeb. Prof. Sanderson was co-PC chair of ACM SIGIR in 2009 and 2012, and general chair of the conference in 2004. Prof Sanderson is also a visiting professor at NII in Tokyo.
+                  </p>
+               </section>
+
+            </div> <!-- end .main-col -->
+
+         </div>
+      </section>
+
+      <section id="DCarmelTalk" style="padding-top: 60px">
+         <div class="row">
+            <div class="two columns">
+               <img class="profile-pic"  src="images/people/dcarmel.png" alt="" />
+            </div>
+            <div class="ten columns main-col"> <a name="DCarmel"></a>
+
+
+                  <h2>David Carmel
+                  <br/>
+                  Web Question Answering with CQA data
+                  </h2>
+
+                  <p>In this talk I’ll cover some of our recent work on WebQA with CQA data.  I’ll describe a general framework for enriching general Web search with related questions and answers extracted from CQA sites. I’ll get into the details of several components of the platform including identifying Web queries with question intent, high precision retreival from CQA data, and supporting human answers for advice seeking questions. I’ll finally overview the Trec LiveQA track which we organize the second year in a row. This track challenges participants with real-time questions extracted from the live stream of questions submitted to the Yahoo Answers site.
+                  </p>
+
+               <section id="DCarmel" style="padding-top: 60px">
+                  <h2>Bio</h2>
+                  <p>
+                  David is a Principal Research Scientist at Yahoo Lab at Haifa. David’s research is focused on search and content quality analysis in Web and Email, query performance prediction, vertical search, and text mining. David has published more than 100 papers in IR and Web journals and conferences, and serves on the editorial board of the IR journal and as a senior PC member or as Area Chair of many ACM conferences (SIGIR, WWW, WSDM. CIKM). He organized a number of workshops and taught several tutorials at SIGIR, and WWW. David is co-author of the book “Estimating the Query Difficulty for Information Retrieval”, published by Morgan & Claypool in 2010, and the co-author of the paper “Learning to estimate query difficulty”, which won the Best Paper Award at SIGIR 2005. David earned his PhD in Computer Science from the Technion, Israel Institute of Technology in 1997.
+                  </p>
+               </section>
+            </div> <!-- end .main-col -->
+         </div>
+      </section>
+
+
+      <section id="EGabrilovichTalk" style="padding-top: 60px">
+         <div class="row">
+
+            <div class="two columns">
+
+               <img class="profile-pic"  src="images/people/egabrilovich.jpg" alt="" />
+
+            </div>
+
+            <div class="ten columns main-col"><a name="EGabrilovich"></a>
+
+                  <h2>Evgeniy Gabrilovich
+                  <br/>
+                  TBD
+                  </h2>
+                  <p>talk description
+                  </p>
+
+               <section id="EGabrilovich" style="padding-top: 60px">
+                  <h2>Bio</h2>
+                  <p>
+                  Dr. Evgeniy Gabrilovich is a senior staff research scientist at Google, where heworks on improving healthcare. Prior to joining Google in 2012, he was a director of research and head of the natural language processing and informationretrieval group at Yahoo! Research. Evgeniy is an ACM Distinguished Scientist, and is a recipient of the 2014 IJCAI-JAIR Best Paper Prize. He is also a recipient of the 2010 Karen Sparck Jones Award for his contributions to natural language processing and information retrieval. Evgeniy is currently serving as aprogram co-chair for WWW 2017. He earned his PhD in computer science from the Technion - Israel Institute of Technology.
+                  </p>
+               </section>
+
+
+
+            </div> <!-- end .main-col -->
+
+         </div>
+      </section>
+
+   </section> <!-- About Section End-->
+
+
+   <!--- Accepted papers section
+   ================================================== -->
+
+
+    <section id="papers">
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Accepted papers</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row item">
+               <div class="twelve columns">
+                  <ul>
+                     <li>
+                        <p class="paperTitle"> <a href="papers/Using Sparse CodingforAnswerSummarizationinNonFactoidCommunityQuestion-Answering.pdf">Using Sparse Coding for Answer Summarization in Non-Factoid Community Question-Answering</a></p>
+                        <p class="authors"> Zhaochun Ren, Hongya Song, Piji Li, Shangsong Liang, Jun Ma and Maarten de Rijke </p>
+                     </li>
+                     <li>
+                        <p class="paperTitle"> <a href="papers/CQADupStackGoldorSilver.pdf"> CQADupStack: Gold or Silver?</a></p>
+                        <p class="authors"> Doris Hoogeveen, Karin Verspoor and Timothy Baldwin </p>
+                     </li>
+                     <li>
+                        <p class="paperTitle"> <a href="papers/LetMeGoogleItForYou.pdf">Complex question: Let me Google it for you</a></p>
+                        <p class="authors"> Alexandra Vtyurina and Charles Clarke </p>
+                     </li>
+                     <li>
+                        <p class="paperTitle"><a href="papers/AProposalforEvaluatingAnswerDistillationfromWebData.pdf"> A Proposal for Evaluating Answer Distillation from Web Data</a></p>
+                        <p class="authors"> Grady Simon, Bhaskar Mitra, Jianfeng Gao and Nick Craswell </p>
+                     </li>
+                     <li>
+                        <p class="paperTitle"><a href="papers/StructuralModelsRankingTasksCQA.pdf">Structural Models for Ranking Tasks of Community Question Answering</a></p>
+                        <p class="authors">Simone Filice, Danilo Croce, Alessandro Moschitti and Roberto Basili</p>
+                     </li>
+                     <li>
+                        <p class="paperTitle"><a href="papers/ConvKNSemEval-2016Task3.pdf">ConvKN at SemEval-2016 Task 3: Answer and Question Selection for Question Answering on Arabic and English Fora</a></p>
+                        <p class="authors">Alberto Barrón-Cedeño, Giovanni Da San Martino, Shafiq Joty, Alessandro Moschitti, Fahad A. Al Obaidli, Salvatore Romeo, Daniele Bonadiman, Kateryna Tymoshenko and Antonio Uva</p>
+                     </li>
+
+<!--                      <li>
+                        <p class="paperTitle"> paper title</p>
+                        <p class="authors"> authors </p>
+                     </li> -->
+                  </ul>
+               </div>
+            </div> <!-- item end -->
+         </div>
+
+      </div>
+   </section>
+
+
+   <!-- organizers
+   ================================================== -->
+
+   <section id="organizers">
+
+   <div class="row">
+
+      <div class="twelve columns">
+            <h1><span>Organizers</span></h1>
+         </div>
+
+      </div> <!-- Row End-->
+
+      <section id="org1" style="padding-top: 60px">
+         <div class="row">
+
+             <div class="six columns">
+
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/CClarke.png" alt="" />
+               </div>
+               <p><em class="name">Charlie Clarke</em> is a Professor in the School of Computer Science at the University of Waterloo, Canada. His research interests include search, information retrieval, and text data mining. He has published on a wide range of topics, including papers related to question answering, filesystem search, search security, search interfaces, user modeling, statistical natural language processing, and the evaluation of search systems. He is a co-author of the book Information Retrieval: Implementing and Evaluating Search Engines, MIT Press, 2010. In addition, he has held a number of software development and consulting positions across industry.</p>
+            </div>
+
+            <div class="six columns">
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/PNakov.png" alt="" />
+               </div>
+               <p><em class="name">Preslav Nakov</em> is a Senior Scientist at the Qatar Computing Research Institute. His research interests include computational linguistics, interactive question answering, lexical semantics, machine translation, Web as a corpus, and biomedical text processing. Preslav Nakov co-authored a Morgan & Claypool book on Semantic Relations between Nominals, two books on computer algorithms, and over 40 research papers in top-tier conferences and journals. He is an Associate Editor of the AI Communications journal and an elected member of the SIGLEX board. He served on the program committee of the major conferences and workshops in computational linguistics, including as a co-organizer and an area/publication/tutorial chair; he co-chaired SemEval 2014-2016 and was an area co-chair of *SEM and EMNLP.</p>
+            </div>
+         </div>
+      </section>
+
+      <section id="org2" style="padding-top: 60px">
+         <div class="row">
+            <div class="six columns">
+
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/LMarquez.png" alt="" />
+               </div>
+               <p><em class="name">Lluís Màrquez</em> is a Principal Scientist at the Qatar Computing Research Institute, previously associate professor at the Technical University of Catalonia (UPC). His research focuses on machine learning methods for natural language structure prediction problems, including syntactic and semantic parsing. He works on applications in statistical machine translation and its evaluation, and question answering in community forums. He has 120+ papers in computational linguistics and machine learning journals and conferences. He has been general and program chair of major conferences in the area, and held several roles in offices of ACL, EACL and the ACL special interest groups (SIGNLL and SIGDAT).</p>
+            </div>
+
+             <div class="six columns">
+
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/AMoschitti.png" alt="" />
+               </div>
+               <p><em class="name">Alessandro Moschitti</em> is a Principal Scientist of the Qatar Computing Research Institute and an associate professor at the CS Department of Trento University, Italy. He has participated to the Jeopardy! Grand Challenge with IBM Watson and has been working on QA since 2002. His expertise concerns theoretical and applied machine learning in the areas of NLP, IR and Data Mining. His research on kernels for advanced syntactic/semantic processing is documented in more than 220 scientific articles published in major venues. He has been General Chair of EMNLP 2014 and PC co-Chair of CoNLL 2015. He has received four IBM Faculty awards, one Google Faculty award and five best paper awards.</p>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="org3" style="padding-top: 60px">
+         <div class="row">
+
+            <div class="six columns">
+
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/EAgichtein.png" alt="" />
+               </div>
+               <p><em class="name">Eugene Agichtein</em> is an Associate Professor in the Math and Computer Science department at Emory University. Eugene’s research interest and publications are in web search and information retrieval (question answering, CQA, search behavior, social media), text and data mining, and human­-computer interaction. He co­authored over 100 publications, including best paper awards at SIGMOD, SIGIR, and WSDM, and the 2013 Karen Spark Jones award.</p>
+            </div>
+
+             <div class="six columns">
+
+               <div class="four columns">
+                  <img class="profile-pic"  src="images/people/ISzpektor.png" alt="" />
+               </div>
+               <p><em class="name">Idan Szpektor</em>  is a senior research scientist at Yahoo Research in Haifa. Idan’s research is focused on Natural Language Processing and its applications in Web technologies. He published over 25 papers in leading conferences and journals related to textual entailment, knowledge acquisition and text generation in NLP, and to information retrieval, question answering, recommender systems and quality analysis in the fields of  search and community question answering. Idan was a co-organizer of the first WebQA workshop in 2015.</p>
+            </div>
+         </div>
+      </section>
+
+   </section>
+
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- background picture is taken from
+https://pixabay.com/en/light-bulb-hanging-lighting-1030988/ CC0
+-->
