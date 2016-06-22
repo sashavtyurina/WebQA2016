@@ -2,7 +2,7 @@
 ==================================================================================================
 
 Web page for SIGIR 2016 WebQA workshop. 
-It hosted on plg2.cs.uwaterloo.ca/~avtyurin/WebQA2016/
+It is hosted on plg2.cs.uwaterloo.ca/~avtyurin/WebQA2016/
 
 ==================================================================================================
 
