@@ -254,7 +254,7 @@ ul#nav li.current a { color: #F06000; }
 #papers {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   /*padding-bottom: 72px ;*/
    overflow: hidden;
 }
 
@@ -305,7 +305,90 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-/*----------------------------*/
+
+
+/* ------------------------------------------------------------------ */
+/* d. Accepted papers Section
+/* ------------------------------------------------------------------ */
+
+#CFP {
+   background: #fff;
+   /*padding-top: 90px;*/
+   padding-bottom: 72px;
+   overflow: hidden;
+   color: #2B2B2B;
+}
+
+/*#call a, #call a:visited  { color: #11ABB0; }*/
+/*#call a:hover, #call a:focus { color: #313131; }*/
+
+.education, .work {
+   /*margin-bottom: 48px;*/
+   /*padding-bottom: 24px;*/
+   border-bottom: 1px solid #E8E8E8;
+}
+
+#CFP h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#CFP h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+.education, .work {
+
+   border-bottom: 1px solid #E8E8E8;
+}
+
+/*#CFP .header-col { padding-top: 9px; }*/
+
+#CFP .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+#CFP .main-col { padding-right: 10%; }
+#CFP .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+}
+
+
+#CFP h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#CFP h5 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+
+#CFP ul {
+    list-style-type: circle;
+}
+
+
+
+/*#call .paperTitle {
+  font: 18px/27px 'opensans-regular', sans-serif;
+  margin-bottom: 0px;
+}
+
+#call .authors {
+  font: 16px/24px 'opensans-regular', serif;
+  margin-top: 0px;
+}
+*/
+
+
+
+
+/*----------------------------
 /* next section
 /*----------------------------*/
 
